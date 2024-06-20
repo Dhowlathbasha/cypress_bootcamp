@@ -2,19 +2,21 @@ var marks = Array(6)
 var marks = new Array(20,40,35,12,37,100)
 
 var marks =[20,40,35,12,37,100]
-subMarks =marks.slice(2,5)
-console.log(subMarks)
+subMarks =marks.slice(2,5) 
+console.log(subMarks)   // output : [ 35, 12, 37 ]
 
-console.log(marks[2]) //35
+console.log(marks[2]) // output : 35
 marks[3] = 14
-console.log(marks) //[20,40,35,14,37,100]
-console.log(marks.length) //6
+console.log(marks) // output : [20,40,35,14,37,100]
+console.log(marks.length) // output : 6
 marks.push(65)
-console.log(marks) //[20,40,35,14,37,100,65]
-marks.pop()//[20,40,35,14,37,100]
+console.log(marks) // output : [20,40,35,14,37,100,65]
+marks.pop()// output : [20,40,35,14,37,100]
 marks.unshift(12)
 console.log(marks)
+
 console.log(marks.indexOf(100))
+
 //120 in the array
 console.log(marks.includes(120))
 var sum =0
@@ -58,39 +60,10 @@ console.log(fruits.sort())
 console.log(fruits.reverse())
 
 
-var scores1 = [12,003,19,16,14] //9
+var scores1 = [12,3,19,16,14] //9
 // console.log(scores1.sort())
 // scores1.sort(function(a,b){
 //     return a-b
 // })
 
 console.log(scores1.sort((a,b)=> b-a))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

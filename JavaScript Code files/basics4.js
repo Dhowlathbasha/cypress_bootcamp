@@ -30,7 +30,3 @@ let sumOfIntegers = function(c,d)
 let sumOfNumbers= (c,d)=> c+d
 
 console.log(sumOfNumbers(2,3))
-
-
-
-

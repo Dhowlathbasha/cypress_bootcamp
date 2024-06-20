@@ -21,5 +21,3 @@ class Pet extends Person
 let pet =new Pet("sam","san")
 pet.fullName()
 console.log(pet.location)
-
-

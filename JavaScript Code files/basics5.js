@@ -33,26 +33,3 @@ console.log(count)
 
 let person =new Person("Chris","Edward")
 console.log(person.fullName())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
